@@ -1,71 +1,83 @@
-# Image Float Assignment
+# Sales Table as a Figure
 
-**Total Marks: 50**
+## Total Marks: 50
 
 ## Objective
 
-Create a webpage that demonstrates how CSS `float` and `clear` work.
+Create a semantic HTML sales table using `<figure>` and `<figcaption>`.
 
-You must complete the HTML and CSS in:
+The page should display a sales table titled:
 
-   ** **starter/index.html****
-
-Do not modify the automated test file.
+Total Sales by Book
 
 ## Requirements
 
-### HTML
+### HTML Structure
 
-Your webpage must contain:
+Your page must contain:
 
-- `<title>Image float</title>`
-- One `<h2>` heading
-- Two paragraphs
-- One image
-- One unordered list
-- Exactly three list items
-- An element with `id="last"`
-- Image `alt` text
-- Image width of 192px
-- Image height of 128px
-- Image `longdesc`
+- A valid HTML document.
+- A `<title>` of `Sales table as a figure`.
+- A `<figure>` element.
+- A `<figcaption>` element.
+- A `<table>`.
+- `<thead>`, `<tbody>`, and `<tfoot>` elements.
+- Three table columns:
+  - Book
+  - Year Published
+  - Sales
+- Six books in the table body.
+- A footer containing `Total Sales`.
 
-### CSS
+### CSS Requirements
 
-Implement the following:
+Implement CSS for:
 
-- Arial, Helvetica, sans-serif
-- Body font size: 85%
-- Body width: 650px
-- Body centered with `margin: 0 auto`
-- Body padding: 1em
-- Blue `<h2>`
-- Image floated left
-- Image top margin: 10px
-- Image bottom margin: 10px
-- Paragraph line height: 1.3
-- Paragraph margin: 0
-- List left margin: 210px
-- List padding-left: 1em
-- List item spacing
-- Final paragraph clears the left float
+- Figure border and width.
+- Figure padding.
+- Centered and bold figure caption.
+- Collapsed table borders.
+- Aqua table header/footer.
+- Table cell borders and padding.
+- First column left aligned.
+- Second column centered.
+- Numeric/sales columns right aligned.
+- Alternating silver table rows.
+
+## Sales Data
+
+| Book | Year Published | Sales |
+|---|---:|---:|
+| PHP and MySQL | 2014 | $372,381 |
+| JavaScript and jQuery | 2015 | $305,447 |
+| Java Programming | 2011 | $392,444 |
+| Java Servlets and JSP | 2014 | $328,992 |
+| ASP.NET with Visual Basic | 2011 | $351,200 |
+| ASP.NET with C# | 2011 | $404,332 |
+
+Total Sales:
+
+$2,154,786
 
 ## Marks
 
-| Area | Marks |
+| Category | Marks |
 |---|---:|
-| HTML structure | 5 |
-| Heading | 5 |
-| Body CSS | 7 |
-| Image/accessibility | 8 |
-| Float | 10 |
-| List | 7 |
-| Clear | 5 |
-| Typography/spacing | 3 |
+| HTML document structure | 5 |
+| Figure and caption | 8 |
+| Table structure | 7 |
+| Sales data | 10 |
+| Figure/table CSS | 10 |
+| Alignment and alternating rows | 7 |
+| Footer/total | 3 |
 | **Total** | **50** |
 
 ## Submission
 
-Commit and push your completed work.
+Complete:
 
-GitHub Actions will automatically run the tests.
+   ** **starter/index.html****
+   
+Commit and push your work.
+
+GitHub Actions will automatically grade your submission.
